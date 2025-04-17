@@ -24,6 +24,7 @@ mobfre=1000
 windwallw=10
 windwallh=300
 windwall_life_span = 5000
+PASSIVE_RECHARGE_DISTANCE=10000
 
 Q_cd=300
 W_cd=10000
