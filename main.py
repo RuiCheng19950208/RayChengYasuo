@@ -4,10 +4,11 @@ from sprites import *
 import random
 from pygame.locals import *
 from sys import exit
-from vector import Vector
 import math
 from os import path
 from sprites import Player, platform, Mob, Windwall, Wind, Spritesheet, AbilityIcon, Explosion
+
+vec = pygame.math.Vector2
 
 
 class Game:

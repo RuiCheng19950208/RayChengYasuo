@@ -323,7 +323,7 @@ class Mob(pygame.sprite.Sprite):
         self.vx= random.randrange(3,10)
         if self.rect.centerx> width:
             self.vx *=-1
-        self.rect.y =random.randrange(height*3/4)
+        self.rect.y =random.randrange(int(height*3/4))
         
         # Set vertical velocity based on spawn position
         # Use a range of values instead of just three options
